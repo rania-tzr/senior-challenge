@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <link rel="stylesheet" href="./style.css">
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div> <img src="./images/Group 8666.png"></div>
+      <div class="contenant" >
+        <img src="./images/Ellipse 83.png" >
+        <div class="maker"> maker </div>
+        <div class="texte_centrer">PV</div> 
+       
+      </div>
+      <hr>
+      <a href="./index.html"><img src="./images/Home_fill.png">Home</a>
+      <a href="./page1.html"><img src="./images/Folder_create_light.png">Créer un nouveau pv</a>
+      <a href="./list.html"><img src="./images/File_dock_fill.png">Liste des pv sauvgardés</a>
+    
+        
+      </div>
+      <div id="left">
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ </button>  
+        
+      </div>
+      
+
+    <div class="img3" >
+        <img src="./images/Group 2 (2).png" alt="">
+    </div>
+    <div class="img3">
+        <img src="./images/Illustration (1) 1.png" alt="">
+    </div>
+    <div class="img3">
+        <img src="./images/Entrer la date et heure de la réunion.png" alt="">
+    </div>
+
+    <div class="input">
+      <div>
+          <label for="date"> La date de la réunion</label>
+      </div>
+      <div>
+          <label for="debut"> Début de la réunion</label>
+      </div>
+      <div>
+          <label for="fin"> Fin de la réunion</label>
+       </div>
+    </div>   
+
+    <div class="input">
+        <div>
+          <input type="date" id="date">
+        </div>
+        
+        <div>
+          <input type="date" id="debut">
+        </div>
+        
+        <div>
+          <input type="date" id="fin">
+        </div>
+    </div>
+    <div>
+      <button  class="continuer"><a id="linkbtn" href="./page3.html"  >continuer</button></a>
+    </div>
+  </div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "20%";
+  document.getElementById("left").style.width ="80%"
+  document.getElementById("left").style.marginLeft = "280px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("left").style.marginLeft= "60px";
+}
+</script>
+   
+
+</body>
+</html>

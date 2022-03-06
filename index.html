@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div> <img src="./images/Group 8666.png"></div>
+      <div class="contenant" >
+        <img src="./images/Ellipse 83.png" >
+        <div class="maker"> maker </div>
+        <div class="texte_centrer">PV</div> 
+       
+      </div>
+      <hr>
+        <a href="./index.html"><img src="./images/Home_fill.png">Home</a>
+        <a href="./page1.html"><img src="./images/Folder_create_light.png">Créer un nouveau pv</a>
+        <a href="./list.html"><img src="./images/File_dock_fill.png">Liste des pv sauvgardés</a>
+      
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ </button>  
+        <div class="center ">
+        <img class="text" src="./images/créer ton pv de réunion.png">
+        <img class="text1" src="./images/Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor..png">
+        <img class="img"src="./images/IMG.png" width="80%" height="45%" ></div>
+        
+      </div>
+    
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html> 
